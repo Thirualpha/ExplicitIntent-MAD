@@ -34,7 +34,7 @@ Registeration Number : 212221040171
 ```
 
 ## ActivityMain.XML:
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -67,9 +67,9 @@ Registeration Number : 212221040171
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 ## MainActivity.Java :
-
+```
 package com.example.explicit;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -89,9 +89,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 }
-
+```
 ## MainActivity2.Java :
-
+```
 package com.example.explicit;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -112,7 +112,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 }
 
-
+```
 ## OUTPUT
 
 ![image](https://github.com/Thirualpha/ExplicitIntent-MAD/assets/113031702/948af6f4-deaa-4ded-ad2c-e681eb85208c)
